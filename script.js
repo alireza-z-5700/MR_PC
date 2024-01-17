@@ -1,8 +1,10 @@
+console.log("heytfdlkuw  yedfgo");
+
 // set year
 
 const yearEL = document.querySelector(".year");
 const currentYear = new Date().getFullYear();
-yearEL.textContent = currentyear;
+yearEL.textContent = currentYear;
 
 //mobile nav
 
