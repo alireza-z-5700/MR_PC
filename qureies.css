@@ -181,7 +181,7 @@
   }
 
   .heading-primary {
-    font-size: 4rem;
+    font-size: 3.6rem;
   }
 
   .heading-secondary {
@@ -256,8 +256,8 @@
     transform: translate(-50%, -50%);
     width: 100%;
   }
-  .heading-primary {
-    font-size: 3.6rem;
+  html {
+    font-size: 44%;
   }
 }
 /* 
