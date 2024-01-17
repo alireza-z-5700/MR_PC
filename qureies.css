@@ -45,7 +45,7 @@
     background-image: linear-gradient(
         to top,
         rgba(32, 32, 32, 0.8),
-        rgba(29, 29, 29, 0.5)
+        rgba(29, 29, 29, 0.7)
       ),
       url(img/black-pc-hero2.jpg);
 
@@ -248,7 +248,7 @@
   }
 }
 
-@media (max-height: 44em) {
+@media (max-height: 40em) and (max-width: 34em) {
   .section-hero {
     position: absolute;
     left: 50%;
