@@ -10,7 +10,12 @@
   height: 9.6rem;
   padding: 0 3.2rem;
 }
+
 /* ---------nav----------  */
+
+.open-on-top {
+  z-index: 2;
+}
 
 .main-nav-list {
   list-style: none;
@@ -84,10 +89,6 @@
 
 /**********************HOW IT WORK***************************/
 
-.section-how {
-  padding: 9.6rem 0;
-}
-
 .step-number {
   font-size: 8.6rem;
   font-weight: 600;
@@ -101,10 +102,6 @@
 }
 
 /**********************SERVICES***************************/
-
-.section-services {
-  padding: 9.6rem 0;
-}
 
 .service-title {
   font-size: 2.4rem;
@@ -161,10 +158,6 @@
 }
 
 /**********************TESTIMONIALS***************************/
-
-.section-testimonials {
-  padding: 9.6rem 0;
-}
 
 .customers {
   background-color: #333;
@@ -226,15 +219,7 @@
 
 /**********************FEATURE***************************/
 
-.section-feature {
-  padding: 9.6rem 0;
-}
-
 /**********************PRICING***************************/
-
-.section-pricing {
-  padding: 9.6rem 0;
-}
 
 .plan-header {
   text-align: center;
@@ -307,10 +292,6 @@
 }
 
 /**********************FORM***************************/
-
-.section-form {
-  padding: 9.6rem 0;
-}
 
 .form {
   display: grid;
@@ -388,12 +369,13 @@ select {
 }
 
 .footer-logo {
+  margin-top: 3.2rem;
   height: 7.6rem;
 }
 
 .footer-icons {
   display: flex;
-  margin-top: 3.6rem;
+  /* margin-top: 2.4rem; */
   align-items: center;
   justify-content: center;
   gap: 1.6rem;
@@ -421,7 +403,7 @@ select {
   gap: 3.2rem;
   justify-content: center;
   list-style: none;
-  margin-top: 2.4rem;
+  margin-top: 1.6rem;
 }
 
 .footer-link:link,
@@ -443,7 +425,7 @@ select {
 .copyright-footer {
   /* background-color: #444; */
   color: #ccc;
-  padding: 1rem;
+
   font-size: 1.4rem;
   margin-top: 2.4rem;
   line-height: 1.8;

@@ -117,6 +117,7 @@ html {
   /* 10 / 16 = 0.625 = 62.5% */
   /* percentage of user's browser font size setting */
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 
 * {
@@ -138,6 +139,7 @@ body {
   font-weight: 400;
   color: #f8f9fa;
   background-color: #222;
+  overflow-x: hidden;
 }
 
 /**********************GENERAL REUSEBLE CPMPONENT***************************/
@@ -146,6 +148,10 @@ body {
   max-width: 130rem;
   margin: 0 auto;
   padding: 0 3.2rem;
+}
+
+.section-padding {
+  padding: 9.6rem 0;
 }
 
 .image {
