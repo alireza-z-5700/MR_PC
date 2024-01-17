@@ -310,7 +310,7 @@
 }
 
 .form-image-box {
-  background-color: #000;
+  background-color: rgb(3, 3, 3);
   display: flex;
   align-items: center;
 }
