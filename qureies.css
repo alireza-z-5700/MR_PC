@@ -175,9 +175,6 @@
 /**********************BELOW 544PX ***************************/
 
 @media (max-width: 34em) {
-  html {
-    font-size: 43.75%;
-  }
   .grid--2-cols,
   .grid--3-cols,
   .grid--4-cols {
