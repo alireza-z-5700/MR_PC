@@ -221,10 +221,14 @@
   .form-image-box {
     grid-row: 1;
     height: 42rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .form-image {
-    transform: scale(0.7);
+    height: 100%;
+    width: auto;
   }
 
   .form-text-box {
