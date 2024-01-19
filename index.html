@@ -640,7 +640,7 @@
                 your system, so leave your PC in our hands.
               </p>
 
-              <form class="main-form" action="#">
+              <form class="main-form" name="sign-up" action="#">
                 <div>
                   <label for="full-name">full name</label>
                   <input
@@ -648,6 +648,7 @@
                     type="text"
                     placeholder="alireza zahedi"
                     required
+                    name="full-name"
                   />
                 </div>
 
@@ -658,6 +659,7 @@
                     type="tel"
                     placeholder="09*********"
                     required
+                    name="tel"
                   />
                 </div>
 
@@ -668,6 +670,7 @@
                     type="email"
                     placeholder="me@example.com"
                     required
+                    name="email"
                   />
                 </div>
 
@@ -678,12 +681,13 @@
                     type="password"
                     placeholder="password"
                     required
+                    name="password"
                   />
                 </div>
 
                 <div>
                   <label for="select">How did you find us?</label>
-                  <select id="select" required>
+                  <select id="select-where" name="select-where" required>
                     <option value="">Choose one</option>
                     <option value="friend">Family and friend</option>
                     <option value="instagram">Instagram</option>
