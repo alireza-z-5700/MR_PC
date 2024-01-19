@@ -373,15 +373,6 @@ select {
   height: 7.6rem;
 }
 
-.footer-icons {
-  display: flex;
-  /* margin-top: 2.4rem; */
-  align-items: center;
-  justify-content: center;
-  gap: 1.6rem;
-  list-style: none;
-}
-
 .footer-icon {
   height: 2.4rem;
   width: 2.4rem;
@@ -391,6 +382,15 @@ select {
   border-radius: 50%;
   margin-bottom: 2.4rem;
   transition: all 0.2s;
+}
+
+.social-icon {
+  display: flex;
+  /* margin-top: 2.4rem; */
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+  list-style: none;
 }
 
 .footer-icon:hover {

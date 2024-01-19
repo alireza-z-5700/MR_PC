@@ -248,7 +248,7 @@
   }
 }
 
-@media (max-height: 40em) and (max-width: 34em) {
+@media (max-height: 42em) and (max-width: 34em) {
   .section-hero {
     position: absolute;
     left: 50%;
