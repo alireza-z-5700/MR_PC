@@ -85,6 +85,18 @@
   line-height: 1.6;
   margin-bottom: 6.4rem;
   color: #f8f9fa;
+  animation: moveInRight 0.8s 0.1s ease-out;
+}
+
+.heading-primary {
+  animation: moveInLeft 0.8s 0.1s ease-out;
+}
+
+.btn-hero-l {
+  animation: moveInLeft 0.8s 0.1s ease-out;
+}
+.btn-hero-r {
+  animation: moveInRight 0.8s 0.1s ease-out;
 }
 
 /**********************HOW IT WORK***************************/
