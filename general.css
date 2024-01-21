@@ -321,7 +321,7 @@ body {
   }
 
   80% {
-    transform: translateX(0.8rem);
+    transform: translateX(0.9rem);
   }
 
   100% {
@@ -337,7 +337,7 @@ body {
   }
 
   80% {
-    transform: translateX(-0.8rem);
+    transform: translateX(-0.9rem);
   }
 
   100% {
