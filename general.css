@@ -250,6 +250,11 @@ body {
   transition: all 0.3s;
 }
 
+.btn-animated {
+  animation: moveInBottom 0.6s ease-out 0.9s;
+  animation-fill-mode: backwards;
+}
+
 .btn--fill:link,
 .btn--fill:visited {
   background-color: #f03e3e;
@@ -340,6 +345,17 @@ body {
     transform: translateX(-0.9rem);
   }
 
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(6.4rem);
+  }
   100% {
     opacity: 1;
     transform: translateX(0);
