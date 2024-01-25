@@ -120,10 +120,12 @@ html {
   overflow-x: hidden;
 }
 
-* {
+*,
+*::after,
+*::before {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  box-sizing: inherit;
 }
 
 /* *:focus {
@@ -134,6 +136,7 @@ html {
 } */
 
 body {
+  box-sizing: border-box;
   font-family: "Rubik", sans-serif;
   line-height: 1;
   font-weight: 400;
