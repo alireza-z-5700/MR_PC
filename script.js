@@ -38,5 +38,8 @@ allLinks.forEach(function (link) {
     }
 
     // Close mobile naviagtion
+
+    if (link.classList.contains('main-nav-link'))
+      headerEl.classList.toggle('nav-open');
   });
 });
