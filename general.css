@@ -129,6 +129,10 @@ html {
   box-sizing: inherit;
 }
 
+::selection {
+  background-color: #f03e3e;
+}
+
 /* *:focus {
   outline: none;
   outline: 4px dotted #c92a2a;
